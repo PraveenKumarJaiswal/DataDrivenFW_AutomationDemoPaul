@@ -36,7 +36,7 @@ public class Reporting extends TestListenerAdapter {
 		driver = (WebDriver) testContext.getAttribute("WebDriver");
 		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());// time stamp
 		String repName = "Test-Report-" + timeStamp + ".html";
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/test-output/" + repName); // report
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/target/" + repName); // report
 		htmlReporter.loadXMLConfig(System.getProperty("user.dir") + "/extent-config.xml");
 
 		extent = new ExtentReports();
