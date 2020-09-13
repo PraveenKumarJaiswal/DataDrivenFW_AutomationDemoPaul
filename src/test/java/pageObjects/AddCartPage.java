@@ -20,4 +20,6 @@ public class AddCartPage extends BaseClass {
 	@FindBy(xpath = "//*[@class = 'ajax_cart_quantity unvisible']")
 	public static WebElement cartCount;
 	
+	@FindBy(xpath = "//table/tbody/tr/td[@class='cart_description']")
+	public static WebElement cartDesc;	
 }

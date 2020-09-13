@@ -77,7 +77,7 @@ public class BaseClass {
 	
 	@AfterSuite
 	public void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 	
 	public static void waitForElement(WebElement ele) {

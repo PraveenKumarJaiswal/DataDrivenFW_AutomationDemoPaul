@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20408" started-at="2020-09-12T23:12:26 IST" finished-at="2020-09-12T23:12:47 IST">
+  <suite name="Suite" duration-ms="17771" started-at="2020-09-13T14:32:13 IST" finished-at="2020-09-13T14:32:31 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20408" started-at="2020-09-12T23:12:26 IST" finished-at="2020-09-12T23:12:47 IST">
+    <test name="Test" duration-ms="17771" started-at="2020-09-13T14:32:13 IST" finished-at="2020-09-13T14:32:31 IST">
       <class name="testCases.AddCartTC">
-        <test-method status="PASS" signature="setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.AddCartTC@2833cc44]" name="setup" is-config="true" duration-ms="18142" started-at="2020-09-12T23:12:08 IST" finished-at="2020-09-12T23:12:26 IST">
+        <test-method status="PASS" signature="setup(java.lang.String, org.testng.ITestContext)[pri:0, instance:testCases.AddCartTC@2833cc44]" name="setup" is-config="true" duration-ms="22724" started-at="2020-09-13T14:31:51 IST" finished-at="2020-09-13T14:32:13 IST">
           <params>
             <param index="0">
               <value>
@@ -16,18 +16,18 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[org.testng.TestRunner@73173f63]]>
+                <![CDATA[org.testng.TestRunner@235a0c16]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:testCases.AddCartTC@2833cc44]" name="addToCart" duration-ms="19417" started-at="2020-09-12T23:12:27 IST" finished-at="2020-09-12T23:12:46 IST">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testCases.AddCartTC@2833cc44]" name="addToCart" duration-ms="16905" started-at="2020-09-13T14:32:14 IST" finished-at="2020-09-13T14:32:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AddCartTC@2833cc44]" name="tearDown" is-config="true" duration-ms="1014" started-at="2020-09-12T23:12:47 IST" finished-at="2020-09-12T23:12:48 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.AddCartTC@2833cc44]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-09-13T14:32:32 IST" finished-at="2020-09-13T14:32:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
