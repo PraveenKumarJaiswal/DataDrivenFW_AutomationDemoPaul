@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-	<parameter name="browser" value="chrome"></parameter>
+<suite name="MG10-Buy medicine">
+<parameter name="browser" value="chrome"></parameter>
+	
 	<listeners>
-		<listener
-			class-name="utilities.Reporting"></listener>
+		<!--<listener class-name="utilities.Reporting"></listener> -->
 	</listeners>
-	<test thread-count="5" name="Test">
-		<classes>
+	<test name="Testing_MG10">
+	
+	
+	<classes>
+		<class name="pageObjects.BaseClass"/>
+		<class name="TestCaseM10.B1G2NoThanksFlowTC"/>
+		<class name="TestCaseM10.Buy1Get2TC"/>
+		
+	</classes>
+	
+	</test>
 
-			<class name="testCases.AddCartTC" />
-		</classes>
-	</test> <!-- Test -->
 </suite> <!-- Suite -->
+
+
+
+	

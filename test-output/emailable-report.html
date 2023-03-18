@@ -8,11 +8,34 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,771</td><td></td><td></td></tr>
+<tr><th colspan="8">MG10-Buy medicine</th></tr>
+<tr><td><a href="#t0">Testing_MG10</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">116,797</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testCases.AddCartTC</td><td><a href="#m0">addToCart</a></td><td rowspan="1">1599987734187</td><td rowspan="1">16905</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">MG10-Buy medicine</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing_MG10 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestCaseM10.B1G2NoThanksFlowTC</td><td><a href="#m0">addToverifyB1G2NoThanksFlowTC</a></td><td rowspan="1">1678449597425</td><td rowspan="1">58325</td></tr><tr><th colspan="4">Testing_MG10 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestCaseM10.Buy1Get2TC</td><td><a href="#m1">verifyBuy1Get2FlowTC</a></td><td rowspan="1">1678449665135</td><td rowspan="1">37019</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testCases.AddCartTC#addToCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Testing_MG10</h2><h3 id="m0">TestCaseM10.B1G2NoThanksFlowTC#addToverifyB1G2NoThanksFlowTC</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//*[contains(text(),&apos;60-Day Money Back Guarantee*&apos;)])[2]&quot;}
+  (Session info: chrome=111.0.5563.64)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.8.0&apos;, revision: &apos;924c4067df&apos;, time: &apos;2017-11-30T11:20:39.408Z&apos;
+System info: host: &apos;PRAVEEN-JAISWAL&apos;, ip: &apos;192.168.29.214&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.64, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\prave\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a9c502147423badfde296ce25f3a67
+*** Element info: {Using=xpath, value=(//*[contains(text(),&apos;60-Day Money Back Guarantee*&apos;)])[2]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at pagePanel.AddCartPagePanel.clickOnDeclineBtn(AddCartPagePanel.java:140)
+	at TestCaseM10.B1G2NoThanksFlowTC.addToverifyB1G2NoThanksFlowTC(B1G2NoThanksFlowTC.java:60)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestCaseM10.Buy1Get2TC#verifyBuy1Get2FlowTC</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

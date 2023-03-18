@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.AddCartTC">
+      <class name="TestCaseM10.B1G2NoThanksFlowTC">
         <methods>
-          <include name="addToCart"/>
+          <include name="addToverifyB1G2NoThanksFlowTC"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.AddCartTC -->
+      </class> <!-- TestCaseM10.B1G2NoThanksFlowTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

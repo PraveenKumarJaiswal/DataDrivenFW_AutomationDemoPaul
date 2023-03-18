@@ -5,15 +5,15 @@
   <listeners>
     <listener class-name="utilities.Reporting"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Test Case 1(failed)">
     <classes>
-      <class name="testCases.AddCartTC">
+      <class name="TestCaseM10.Buy1Get2">
         <methods>
           <include name="addToCart"/>
           <include name="setup"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.AddCartTC -->
+      </class> <!-- TestCaseM10.Buy1Get2 -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test Case 1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

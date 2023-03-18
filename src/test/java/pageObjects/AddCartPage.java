@@ -5,14 +5,19 @@ import org.openqa.selenium.support.FindBy;
 
 public class AddCartPage extends BaseClass {
 	
-	@FindBy(xpath = "(//*[@class = 'product-image-container'])[1]")
-	public static WebElement productCard;
 	
-	@FindBy(xpath = "(//*[contains(text(),'Add to cart')])[1]")
-	public static WebElement addCartBtn;
 	
-	@FindBy(xpath = "//*[@class= 'icon-chevron-left left']")
-	public static WebElement continueShipping;
+	@FindBy(xpath = "(//div[@class='cta-btn-div funnelBtn'])[2]")
+	public static WebElement buyNowBtn;
+	
+	@FindBy(xpath = "//*[@class=\"puContent\"]/h6")
+	public static WebElement popupTopGeologistReports;
+	
+	@FindBy(xpath = "//*[@id='cta2']")
+	public static WebElement todayOnlyBuyBtn;
+	
+	@FindBy(xpath = "//a[@onclick='autoFill();']")
+	public static WebElement clickAutoFill;
 	
 	@FindBy(xpath = "//*[@class = 'shopping_cart']")
 	public static WebElement cart;
